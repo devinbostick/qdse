@@ -20,7 +20,7 @@ initial_state = (tensor(basis(2, 0), basis(2, 0), basis(2, 0), basis(2, 0),
 H = (0.5 * (tensor(sz, sz, sz, sz, si, si, si, si) +
             tensor(si, si, sz, sz, sz, sz, si, si) +
             tensor(sx, sy, sy, sx, si, si, sz, sz) +
-            tensor(sz, sx, sz, sy, sz, sz, sy, sx) +
+            tensor(sz, sx, sz, sy, sz, sz, sy, sx))
             0.2 * (tensor(sx, sy, sz, si, sz, sx, sy, si) +
                    tensor(sz, sz, sx, sy, sx, sz, si, si)) +
             0.1 * (tensor(sx, sx, sy, sy, sz, sz, sz, sz) +
